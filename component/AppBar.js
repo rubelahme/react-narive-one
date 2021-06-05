@@ -46,5 +46,3 @@ export default function AppBar() {
     </Container>
   );
 }
-
-// const styles = StyleSheet.create({});

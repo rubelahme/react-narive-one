@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components/native";
 import { StatusBar, ScrollView } from "react-native";
 import AppBar from "./component/AppBar";
-import Product from "./component/Product";
+import Items from "./component/Items";
+
 const Container = styled.SafeAreaView`
   flex: 1;
 `;
@@ -14,7 +15,7 @@ const App = () => {
       <Container>
         <ScrollView>
           <AppBar></AppBar>
-          <Product></Product>
+          <Items></Items>
         </ScrollView>
       </Container>
     </>
